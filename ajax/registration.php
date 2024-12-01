@@ -22,7 +22,7 @@ if (!empty($_POST['name']) &&
             'value' => $login
         ],
         'name' => [
-            'pattern' => '/[А-ЯЁа-яё]+/u',
+            'pattern' => '/[А-ЯЁа-яёA-Za-z]+/u',
             'error_text' => 'Недействительное имя пользователя',
             'value' => $name
         ]

@@ -5,7 +5,7 @@
             <input type="text" class="modal-input" name="login" placeholder="Логин" autocomplete="off">
         </div>
         <div class="modal-input__wrapper">
-            <input type="text" class="modal-input" name="password" placeholder="Пароль" autocomplete="off">
+            <input type="password" class="modal-input" name="password" placeholder="Пароль" autocomplete="off">
         </div>
         <div id="auth-user-btn" class="modal-btn">Авторизоваться</div>
     </div>
